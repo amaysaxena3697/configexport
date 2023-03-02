@@ -1,0 +1,19 @@
+uuid: f49c617b-820b-4918-a7c7-44bed9d83d2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test
+    - node.type.news
+id: node.news.field_test
+field_name: field_test
+entity_type: node
+bundle: news
+label: test
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

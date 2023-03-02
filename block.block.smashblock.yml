@@ -1,0 +1,20 @@
+uuid: d1a5f2fc-f5c6-4931-b0bd-1cb2dbd284cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - smash_module
+  theme:
+    - olivero
+id: smashblock
+theme: olivero
+region: header
+weight: 0
+provider: null
+plugin: smash
+settings:
+  id: smash
+  label: SmashBlock
+  label_display: visible
+  provider: smash_module
+visibility: {  }

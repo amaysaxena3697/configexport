@@ -1,0 +1,20 @@
+uuid: 50e56b43-aa71-4dc0-9405-b20c5488220e
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_module
+  theme:
+    - olivero
+id: simplertextblock
+theme: olivero
+region: content_above
+weight: 0
+provider: null
+plugin: simple_example_block
+settings:
+  id: simple_example_block
+  label: 'Simpler Text Block'
+  label_display: visible
+  provider: my_module
+visibility: {  }
